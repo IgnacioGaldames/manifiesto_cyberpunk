@@ -1,3 +1,51 @@
-body{font:62.5% "Source Code Pro",monospace;color:#e5e5e5;background-color:#1a1a1a;text-rendering:optimizeLegibility}.container{font-size:2rem}hr{border-top-color:gray;opacity:.75}p{font-family:"Source Sans Pro",sans-serif;font-weight:300}
+/*
+Error: Invalid CSS after "0px 0px 20px green": expected expression (e.g. 1px, bold), was ";"
+        on line 33 of /Users/ignaciogaldames/Documents/Github/manifiesto_cyberpunk/sass/main.sass
 
-/*# sourceMappingURL=main.min.css.map */
+28: 	color: $primary-color
+29: 	background-color: $background-color
+30: 	text-rendering: optimizeLegibility
+31: 	overflow: hidden
+32: 	padding: 0
+33: 	text-shadow: 0px 0px 20px green;
+34: .container
+35: 	font-size: 2rem
+36: hr
+37: 	border-top-color: $mid-contrast
+38: 	opacity: 0.75
+
+Backtrace:
+/Users/ignaciogaldames/Documents/Github/manifiesto_cyberpunk/sass/main.sass:33
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1179:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/lexer.rb:227:in `expected!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:702:in `assert_done'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:64:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:223:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script.rb:27:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:1145:in `parse_script'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:718:in `parse_property'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:689:in `parse_property_or_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:655:in `parse_line'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:533:in `build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:552:in `block in append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:542:in `block in build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:535:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:535:in `build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:552:in `block in append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:406:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:414:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"0px 0px 20px green\": expected expression (e.g. 1px, bold), was \";\"\A         on line 33 of /Users/ignaciogaldames/Documents/Github/manifiesto_cyberpunk/sass/main.sass\A \A 28: 	color: $primary-color\A 29: 	background-color: $background-color\A 30: 	text-rendering: optimizeLegibility\A 31: 	overflow: hidden\A 32: 	padding: 0\A 33: 	text-shadow: 0px 0px 20px green;\A 34: .container\A 35: 	font-size: 2rem\A 36: hr\A 37: 	border-top-color: $mid-contrast\A 38: 	opacity: 0.75"; }

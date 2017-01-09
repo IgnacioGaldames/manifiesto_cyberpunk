@@ -4,11 +4,33 @@ $primary-color:	#e5e5e5
 $background-color: #1a1a1a
 $mid-contrast: #808080
 
+@keyframes animatedBackground
+	0%
+		opacity: 0.3
+		background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 1) 50%)
+
+	50%
+		opacity: 0.35
+		background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 1) 50%)
+
+	100%
+		opacity: 0.3
+		background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 1) 50%)
+		background-image: moz-linear-gradient(transparent 0%, rgba(10, 16, 10, 1) 50%)
+
+html,
 body
+	height: 100%
+
+body
+	background: radial-gradient(#222922, #000500)
 	font: 62.5% $font-stack
 	color: $primary-color
 	background-color: $background-color
 	text-rendering: optimizeLegibility
+	overflow: hidden
+	padding: 0
+	text-shadow: 0px 0px 20px green;
 .container
 	font-size: 2rem
 hr
@@ -17,3 +39,20 @@ hr
 p
 	font-family: 'Source Sans Pro', sans-serif
 	font-weight: 300
+.overlay
+	color: white
+	background-size: 100% 2px
+	bottom: 0
+	content: ''
+	left: 0
+	position: absolute
+	right: 0
+	top: 0
+	animation: animatedBackground 0.1s ease-in-out infinite
+	animation-duration: 0.1s
+	animation-name: animatedBackground
+	animation-iteration-count: infinite
+	background-image: -webkit-linear-gradient(transparent 0%, rgba(10, 16, 10, 0.35) 50%)
+	background-image: -o-linear-gradient(transparent 0%, rgba(10, 16, 10, 0.35) 50%)
+	background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.35) 50%)
+	pointer-events: none

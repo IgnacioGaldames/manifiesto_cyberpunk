@@ -1,0 +1,1 @@
+$(document).ready(function(){function t(){document.title=e,$("#glitch").text(e),$("#glitch").attr("data-text",e)}var e="Manifiesto Cyberpunk"});
