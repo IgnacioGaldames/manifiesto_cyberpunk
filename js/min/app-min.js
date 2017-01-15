@@ -1,1 +1,1 @@
-$(document).ready(function(){function t(){document.title=e,$("#glitch").text(e),$("#glitch").attr("data-text",e)}var e="Manifiesto Cyberpunk"});
+$(document).ready(function(){function t(){document.title=i,$("#glitch").text(i),$("#glitch").attr("data-text",i);for(var t=e.length-1;t>=0;t--)e[t],glitchId="#glitch"+[t+1],$(glitchId).text(e[t]),$(glitchId).attr("data-text",e[t])}var e=["I. Cyberpunk","II. Sociedad","III. El Sistema","IV. La Visión","V. ¿Dónde estamos?"],i="Manifiesto Cyberpunk";t()});

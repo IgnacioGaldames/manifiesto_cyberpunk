@@ -6,9 +6,11 @@
         }
     }
 }
-
+.glitch-container {
+    position: relative
+}
 .glitch {
-    font-size: 5em;
+    font-size: 2em;
     width: auto;
     margin: 0 auto;
 }
